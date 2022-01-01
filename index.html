@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="my-4">Shopping Cart</h1>
+      <h1 class="my-2 title">Shopping Cart</h1>
       <div class="row">
         <div class="col-12">
           <table class="table table-responsive">
@@ -53,14 +53,14 @@
         </div>
         
         <form class="col-12 mt-2 mb-4" id="addItem">
-          <input class="mx-2" name="name" type="text" placeholder="Name" required/>
-          <input class="mx-2" name="price" type="number" placeholder="Price $"/>
-          <input class="mx-2" name="qty" type="number" placeholder="Quantity"/>
-          <button class="btn btn-dark">add</button>
+          <input name="name" type="text" placeholder="Name" required/>
+          <input name="price" type="number" placeholder="Price $"/>
+          <input name="qty" type="number" placeholder="Quantity"/>
+          <button class="btn add">add</button>
         </form>
         
-        <div class="col-12 col-md-6">
-          <h3>Total Price: $ <span id="totalValue"></span></h3>
+        <div class="col-12 col-md-6 price-style">
+          <h2>Total Price: $ <span id="totalValue"></span></h2>
         </div>
        
         

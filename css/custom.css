@@ -1,0 +1,32 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(170, 170, 170);
+}
+
+table {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+}
+
+.add {
+    color: rgb(194, 191, 191);
+    background-color: black;
+}
+
+.price-style {
+    border: black solid 2px;
+    text-align: center;
+    max-width: fit-content;
+    font-weight: bold;
+}
+
+
+
