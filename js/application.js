@@ -1,4 +1,4 @@
-// function to calculate subtotal
+
 var calculateSub = function (ele) { 
   var unitPrice = parseFloat($(ele).find('.price input').val());
   var unitQty = parseFloat($(ele).find('.qty input').val());
@@ -8,10 +8,9 @@ var calculateSub = function (ele) {
 
   return subT;
 }
-//function for sum
+
 var sum = function (acc, x) { return acc + x; };
 
-//function for total price
 var updateTotalPrice = function () { 
   var subTotal = [];
 
